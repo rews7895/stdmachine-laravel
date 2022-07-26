@@ -22,7 +22,9 @@ return new class extends Migration
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
             $table->string('profile_photo_path', 2048)->nullable();
+            $table->string('phone')->comment('핸드폰 번호');
             $table->timestamps();
+            $table->comment('유저 테이블');
         });
     }
 

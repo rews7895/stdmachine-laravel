@@ -1,7 +1,8 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            {{-- <x-jet-authentication-card-logo /> --}}
+            <img src="/logo/logo-rsp.png" alt="표준산업기계 로고" style="width: 140px; margin-bottom: 30px;">
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />
