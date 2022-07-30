@@ -5,3 +5,13 @@
 .bg-main {
     background-color: #2e3192;
 }
+
+.aside-sizing {
+    height: 100%;
+    width: 20vh;
+    /* padding-top: 64px; */
+}
+
+.cml-240 {
+    margin-left: 270px;
+}
